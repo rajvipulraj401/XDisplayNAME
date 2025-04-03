@@ -122,7 +122,9 @@ const App = () => {
         {/* note- when you want to add a label then use label and inside it use
         input tag */}
 
-        <button className="button">Submit</button>
+        <button type="submit" className="button">
+          Submit
+        </button>
       </form>
 
       {/* DISPLAY THIS when the button gets clicked so we have kept a state where we storing
